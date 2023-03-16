@@ -8,7 +8,7 @@
 
 package edu.bu.met.cs665;
 
-import edu.bu.met.cs665.example1.Person;
+import edu.bu.met.cs665.UserBehavior.Person;
 
 /**
  * This is the Main class.
