@@ -14,7 +14,7 @@ https://github.com/jjqdaniao/cs-665-assignment-3
 
 # Implementation Description 
 
-I used Observer pattern and Factory pattern for this assignment. I created an interface called send to generate messages for different users. And an abstract class named user to let other user classes to extend, which could help save duplicate codes for exact same functions. So for the future maintaining purpose, I could just edit the overrides and abstract class for either specific details for specific user or for updating features for all of them together.
+I created an interface called send to generate messages for different users. And an abstract class named user to let other user classes to extend, which could help save duplicate codes for exact same functions. So for the future maintaining purpose, I could just edit the overrides and abstract class for either specific details for specific user or for updating features for all of them together.
 
 For each assignment, please answer the following:
 
