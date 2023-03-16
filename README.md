@@ -1,19 +1,20 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Name         | Zhilin Chang               |
+| Date         | 03/15/2023                 |
+| Course       | Spring                     |
+| Assignment # | 3                          |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+This assignment is to write an email auto generation system for different email users, including new, returning, VIP, frequent, and business users. For any of them, this system should create an unique email for this specific type of users. 
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/jjqdaniao/cs-665-assignment-3
 
 # Implementation Description 
 
+I used Observer pattern and Factory pattern for this assignment. I created an interface called send to generate messages for different users. And an abstract class named user to let other user classes to extend, which could help save duplicate codes for exact same functions. So for the future maintaining purpose, I could just edit the overrides and abstract class for either specific details for specific user or for updating features for all of them together.
 
 For each assignment, please answer the following:
 
